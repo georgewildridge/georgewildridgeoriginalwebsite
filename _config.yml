@@ -8,7 +8,7 @@ relative_permalinks: False
 title:               George Wildridge
 tagline:             'What What'
 description:         'I am an aspiring student within the field of machine learning'
-url:                 http://georgewildridge.github.io/
+url:                 #http://georgewildridge.github.io/
 baseurl:             ''
 paginate:            5
 
