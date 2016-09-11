@@ -2,19 +2,20 @@
 layout: main_post
 title: Experience
 ---
+
 ###Summer 2016  
 **Yale Univerisity's Social Robotics Lab**     
-Interned Under Olivier Manguin and Alessandro Roncone. 2016
+Interned Under Olivier Manguin and Alessandro Roncone. 
 
 
 ###Summer 2015  
 **Yale Univerisity's Social Robotics Lab**    
-Interned Under Bradley Hayes. 2015
+Interned Under Bradley Hayes. 
 
 
 ###Summer 2014  
 **Yale University's Social Robotics Lab**    
-Interned Under Bradley Hayes. 2014
+Interned Under Bradley Hayes. 
 
 
 ###2013-Present  
