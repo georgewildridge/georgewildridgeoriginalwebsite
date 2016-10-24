@@ -1,9 +1,12 @@
 ---
 layout: default
-title: Home
+title: Blog
 ---
 
 <div class="posts">
+  {% assign pages_list = site.pages | sort:"url" %}
+    {% for node in pages_list %}
+      {% if node.title == "Blog" %}
   {% for post in paginator.posts %}
   <div class="post">
     <h1 class="post-title">
