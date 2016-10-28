@@ -1,41 +1,59 @@
----
-layout: default
-title: Blog
----
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>George Wildridge by georgewildridge</title>
 
-<div class="posts">
-  {% assign pages_list = site.pages | sort:"url" %}
-    {% for node in pages_list %}
-      {% if node.title == "Blog" %}
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}/{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>George Wildridge</h1>
+        <p></p>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+        <p class="view"><a href="https://github.com/georgewildridge">View My GitHub Profile</a></p>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+      </header>
+      <section>
+        <h1>
+<a id="experience" class="anchor" href="#experience" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Experience</h1>
 
+<h4>
+<a id="summer-2016" class="anchor" href="#summer-2016" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Summer 2016</h4>
+
+<p><strong>Yale University's Social Robotics Lab</strong><br>
+Interned Under Olivier Manguin and Alessandro Roncone. </p>
+
+<h4>
+<a id="summer-2015" class="anchor" href="#summer-2015" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Summer 2015</h4>
+
+<p><strong>Yale University's Social Robotics Lab</strong><br>
+Interned Under Bradley Hayes. </p>
+
+<h4>
+<a id="summer-2014" class="anchor" href="#summer-2014" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Summer 2014</h4>
+
+<p><strong>Yale University's Social Robotics Lab</strong><br>
+Interned Under Bradley Hayes. </p>
+
+<h4>
+<a id="2013-present" class="anchor" href="#2013-present" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2013-Present</h4>
+
+<p><strong>Choate Rosemary Hall</strong></p>
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
