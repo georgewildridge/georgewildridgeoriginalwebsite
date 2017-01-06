@@ -174,7 +174,8 @@ li {
 }
 .tunder {
   font-size: 16px;
-  font-weight: 350;
+  font-weight: 400;
+  color: rgb(0,0,132);
 }
 @media (max-width: 768px) {
   .tdate {
