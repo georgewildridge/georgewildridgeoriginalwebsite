@@ -6,6 +6,8 @@
       <div class="tdate">{{ item.date }}</div>
       <div class="ttitle">{{ item.title | markdownify }}</div>
       <div class="tdesc">{{ item.description | markdownify }}</div>
+      <div class="tdesc">{{ item.workedunder | markdownify }}</div>
+
     </div>
     {% endfor %}
 
