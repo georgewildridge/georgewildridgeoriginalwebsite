@@ -172,6 +172,10 @@ li {
   font-size: 18px;
   font-weight: 300;
 }
+.tunder {
+  font-size: 16px;
+  font-weight: 350;
+}
 @media (max-width: 768px) {
   .tdate {
     font-size: 16px;
@@ -180,6 +184,9 @@ li {
     font-size: 16px;
   }
   .tdesc {
+    font-size: 16px;
+  }
+  .tunder {
     font-size: 16px;
   }
 }
