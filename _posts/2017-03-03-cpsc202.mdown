@@ -22,14 +22,13 @@ header-img: "img/post-bg-02.jpg"
 <li>Relations</li>
 </ul>
 
-<h2 id="mathematicallogic">Mathematical Logic:</h2>
+<h2 id="mathematicallogic">Mathematical Logic</h2>
 
-<p>Although logic is a broadly applicable in its own right, logic, especially mathematical logic, is fundamental to computer science. Providing a framework for reasoning, logic has played an integral role in computer science since the fields inception with Alan Turing's creation of the first computer. Logic has defined both the physical existence of a computer and the software that runs on it. It is elementary in the design of programs and also in the analysis of programs. 
- Further, it is rudimentary in the design of the programming languages themselves as languages often contain logical symbolism.  </p>
+<p>Logic is a framework for reasoning and is widely applicable in its own right. Mathematical logic (logic applied to mathematics) is especially important as it has enable the development of fields like geometry, arithmetic and, notably, computer science. Mathematical logic has played an integral role in computer science since the fields inception with Alan Turing's creation of the first computer and the theory of computation. Further, it is rudimentary in the design of the programming languages themselves as languages often contain logical symbolism.  Mathematical logic has helped to define both the physical existence of a computer and the software that runs on it.</p>
 
 <h2 id="settheory">Set Theory</h2>
 
-<p>Building on mathematical logic, set theory is also an incredibly important tool for reasoning and language in mathematics and computer science. It deals with sets, or groups of mathematical objects. Like logic, set theory provides a framework for reasoning about computation. Set theory becomes more interesting, and much more complicated, when we move away from finite sets to infinite sets.  With infinite sets, we are forced to consider ideas like cardinality and the relative sizes of infinity. This course introduced me to both naïve and axiomatic set theory, though emphasis was placed on naïve set theory. Set theory is prevalent in its application throughout computer science, as it allows for the creation of data structures, database theory, formal language theory and programming language semantics.</p>
+<p>Building on mathematical logic, set theory is also an incredibly important tool for reasoning and language in mathematics and computer science. Like logic, set theory provides a framework for reasoning about computation. It deals with sets, or groups of mathematical objects. Set theory becomes more interesting, and much more complicated, when we move away from finite sets to infinite sets.  With infinite sets, we are forced to consider ideas like cardinality and the relative sizes of infinity. This course introduced me to both naïve and axiomatic set theory, though emphasis was placed on naïve set theory. Set theory is prevalent in its application throughout computer science, as it allows for the creation of data structures, database theory, formal language theory and programming language semantics.</p>
 
 <h2 id="induction">Induction</h2>
 
@@ -37,7 +36,7 @@ header-img: "img/post-bg-02.jpg"
 
 <h2 id="asymptoticgrowth">Asymptotic Growth</h2>
 
-<p>The study of asymptotic growth is commonly used within computer science as it allows us to answer basic questions quickly. Questions that can be answered by the study of asymptotic growth include: what’s the maximum/minimum time I should expect this program to run? How much time should I expect this program to run? How much space can you expect a program to take up on your hard drive? And if a program is solvable in the first place. When programming, these questions constantly need to be answered, as they can give you a good indication of whether or not you code is running correctly.  </p>
+<p>The study of asymptotic growth is commonly used within computer science as it allows us to answer basic questions quickly. Questions that can be answered by the study of asymptotic growth include: what’s the maximum/minimum time I should expect this program to run? How much time should I expect this program to run? How much space can you expect a program to take up on your hard drive? And, if a program is solvable in the first place. When programming, these questions constantly need to be answered, as they can give you a good indication of whether or not you code is running correctly.  </p>
 
 <h2 id="numbertheory">Number Theory</h2>
 
@@ -47,7 +46,8 @@ header-img: "img/post-bg-02.jpg"
 
 <p>Utilizing set theory, relations help to define certain properties that exist between sets. Relations have different properties (transitive, symmetric, reflexive…) and these properties define what a relation is. For example, if a relation is symmetric, transitive and reflexive it is an equivalence relation. Another type of relation is an order relation, or even a function.  Relations are widely used in computer science when programming. </p>
 
-<p>Sources:
-https://www.cs.utexas.edu/~rlc/whylog.htm
+<h3 id="sources">Sources:</h3>
+
+<p>https://www.cs.utexas.edu/~rlc/whylog.htm
 https://www.cl.cam.ac.uk/~gw104/STfCS2010.pdf
 http://math.stackexchange.com/questions/1075320/why-do-we-need-to-learn-set-theory</p>
