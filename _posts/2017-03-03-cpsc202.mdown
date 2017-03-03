@@ -1,33 +1,35 @@
 ---
 layout:     post
 title:      "CPSC202 Final Writeup"
-date:       2016-06-01 12:00:00
+date:       2017-03-03 12:00:00
 author:     "George Wildridge"
 header-img: "img/post-bg-02.jpg"
 ---
 
-<p>In this post I hope to walk you through how topics I have studied in Yale's CPSC 202a: Mathematics Oriented Towards Computer Science relate to computer science. The following topics will be covered:
-*Mathematical Logic
-*Sets
-*Induction
-*Asymptotic Growth
-*Number Theory</p>
+<p>In this post I hope to walk you through how topics I have studied in Yale's CPSC 202a: Mathematics Oriented Towards Computer Science relate to computer science. The following topics will be covered:</p>
+
+<ul>
+<li>Mathematical Logic</li>
+
+<li>Set Theory</li>
+
+<li>Induction</li>
+
+<li>Asymptotic Growth</li>
+
+<li>Number Theory</li>
+
+<li>Relations</li>
+</ul>
 
 <h2 id="mathematicallogic">Mathematical Logic:</h2>
 
-<p>Although logic is a broadly applicable in its own right, logic, especially mathematical logic, is fundamental to computer science. Providing a framework for reasoning, logic has played an integral role in computer science since the fields inception with Alan Turing's creation of the first computer. Logic has defined both the physical existence of a computer and the software that runs on it. It is elementary in the design of programs and also in the analysis of programs. </p>
-
-<p>CPSC 202 taught me the formal language of logic, through an exploration of prepositional and predicate logic, axiom, theories and models and proofs. </p>
-
-<p>https://www.cs.utexas.edu/~rlc/whylog.htm</p>
+<p>Although logic is a broadly applicable in its own right, logic, especially mathematical logic, is fundamental to computer science. Providing a framework for reasoning, logic has played an integral role in computer science since the fields inception with Alan Turing's creation of the first computer. Logic has defined both the physical existence of a computer and the software that runs on it. It is elementary in the design of programs and also in the analysis of programs. 
+ Further, it is rudimentary in the design of the programming languages themselves as languages often contain logical symbolism.  </p>
 
 <h2 id="settheory">Set Theory</h2>
 
-<p>Building on mathematical logic, set theory is also an incredibly important tool for reasoning and language in mathematics and computer science. It deals with sets, or groups of mathematical objects. Like logic, set theory provides a framework for reasoning about computation. Set theory becomes more interesting, and much more complicated, when we move away from finite sets to infinite sets.  With infinite sets we are  forced to consider ideas like cardinality and the relative sizes of infinity. This course introduced me to both naïve and axiomatic set theory, though emphasis was placed on naïve set theory. Set theory is prevalent in its application throughout computer science, as it allows for the creation of data structures, database theory, formal language theory and programming language semantics.</p>
-
-<p>https://www.cl.cam.ac.uk/~gw104/STfCS2010.pdf</p>
-
-<p>http://math.stackexchange.com/questions/1075320/why-do-we-need-to-learn-set-theory</p>
+<p>Building on mathematical logic, set theory is also an incredibly important tool for reasoning and language in mathematics and computer science. It deals with sets, or groups of mathematical objects. Like logic, set theory provides a framework for reasoning about computation. Set theory becomes more interesting, and much more complicated, when we move away from finite sets to infinite sets.  With infinite sets, we are forced to consider ideas like cardinality and the relative sizes of infinity. This course introduced me to both naïve and axiomatic set theory, though emphasis was placed on naïve set theory. Set theory is prevalent in its application throughout computer science, as it allows for the creation of data structures, database theory, formal language theory and programming language semantics.</p>
 
 <h2 id="induction">Induction</h2>
 
@@ -40,3 +42,12 @@ header-img: "img/post-bg-02.jpg"
 <h2 id="numbertheory">Number Theory</h2>
 
 <p>Number theory is the study of numbers and the relationship between them. Generally, it is talking about the positive whole numbers called natural numbers and we are often exploring numbers divisibility properties. This field is important to computer science as it is necessary to write good code. Good code is efficient code, and number theory is very helpful in designing more efficient code. Further, number theory is also very prevalent in computer science within cryptography. </p>
+
+<h2 id="relations">Relations</h2>
+
+<p>Utilizing set theory, relations help to define certain properties that exist between sets. Relations have different properties (transitive, symmetric, reflexive…) and these properties define what a relation is. For example, if a relation is symmetric, transitive and reflexive it is an equivalence relation. Another type of relation is an order relation, or even a function.  Relations are widely used in computer science when programming. </p>
+
+<p>Sources:
+https://www.cs.utexas.edu/~rlc/whylog.htm
+https://www.cl.cam.ac.uk/~gw104/STfCS2010.pdf
+http://math.stackexchange.com/questions/1075320/why-do-we-need-to-learn-set-theory</p>
