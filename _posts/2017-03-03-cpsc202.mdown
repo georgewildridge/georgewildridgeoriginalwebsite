@@ -1,0 +1,42 @@
+---
+layout:     post
+title:      "CPSC202 Final Writeup"
+date:       2016-06-01 12:00:00
+author:     "George Wildridge"
+header-img: "img/post-bg-02.jpg"
+---
+
+<p>In this post I hope to walk you through how topics I have studied in Yale's CPSC 202a: Mathematics Oriented Towards Computer Science relate to computer science. The following topics will be covered:
+*Mathematical Logic
+*Sets
+*Induction
+*Asymptotic Growth
+*Number Theory</p>
+
+<h2 id="mathematicallogic">Mathematical Logic:</h2>
+
+<p>Although logic is a broadly applicable in its own right, logic, especially mathematical logic, is fundamental to computer science. Providing a framework for reasoning, logic has played an integral role in computer science since the fields inception with Alan Turing's creation of the first computer. Logic has defined both the physical existence of a computer and the software that runs on it. It is elementary in the design of programs and also in the analysis of programs. </p>
+
+<p>CPSC 202 taught me the formal language of logic, through an exploration of prepositional and predicate logic, axiom, theories and models and proofs. </p>
+
+<p>https://www.cs.utexas.edu/~rlc/whylog.htm</p>
+
+<h2 id="settheory">Set Theory</h2>
+
+<p>Building on mathematical logic, set theory is also an incredibly important tool for reasoning and language in mathematics and computer science. It deals with sets, or groups of mathematical objects. Like logic, set theory provides a framework for reasoning about computation. Set theory becomes more interesting, and much more complicated, when we move away from finite sets to infinite sets.  With infinite sets we are  forced to consider ideas like cardinality and the relative sizes of infinity. This course introduced me to both naïve and axiomatic set theory, though emphasis was placed on naïve set theory. Set theory is prevalent in its application throughout computer science, as it allows for the creation of data structures, database theory, formal language theory and programming language semantics.</p>
+
+<p>https://www.cl.cam.ac.uk/~gw104/STfCS2010.pdf</p>
+
+<p>http://math.stackexchange.com/questions/1075320/why-do-we-need-to-learn-set-theory</p>
+
+<h2 id="induction">Induction</h2>
+
+<p>Based on mathematical logic, induction is an incredibly important method of proving statements for all integers in computer science. There are two methods of proof by induction: simple induction and strong induction. Simple induction makes the assertion that if some statement holds true for P(n) then it holds true for P(n+1). On the other hand, strong induction makes the assertion that if some statement, P(n) holds true for the numbers less then n, then it must hold true for n and n+1. Despite their differences, both methods accomplish the same thing. The most prevalent and clear relationship between mathematical induction and computer science is recursion; however, induction is also tremendously helpful in the analysis of programs. </p>
+
+<h2 id="asymptoticgrowth">Asymptotic Growth</h2>
+
+<p>The study of asymptotic growth is commonly used within computer science as it allows us to answer basic questions quickly. Questions that can be answered by the study of asymptotic growth include: what’s the maximum/minimum time I should expect this program to run? How much time should I expect this program to run? How much space can you expect a program to take up on your hard drive? And if a program is solvable in the first place. When programming, these questions constantly need to be answered, as they can give you a good indication of whether or not you code is running correctly.  </p>
+
+<h2 id="numbertheory">Number Theory</h2>
+
+<p>Number theory is the study of numbers and the relationship between them. Generally, it is talking about the positive whole numbers called natural numbers and we are often exploring numbers divisibility properties. This field is important to computer science as it is necessary to write good code. Good code is efficient code, and number theory is very helpful in designing more efficient code. Further, number theory is also very prevalent in computer science within cryptography. </p>
